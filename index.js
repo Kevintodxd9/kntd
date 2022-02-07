@@ -307,7 +307,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(ppUrl)
 
-				teks = ` Hi @${num.split('@')[0]}\nSELAMAT DATANG DI\nDI *${mdata.subject}*\nJANGAN LUPA BACA RULES☺`
+				teks = ` Hi @${num.split('@')[0]}\nSELAMAT DATANG DI\nDI *${mdata.subject}*\nJANGAN LUPA BACA RULES KONTOL KALOK GX BISA BACA  BELAJAR KONTOL☺`
 
 				sendButImage(anu.jid, teks, `Yuki bot`, img,but = [{buttonId:`apaaja`, 
 
@@ -329,9 +329,9 @@ kurr.on('group-participants-update', async (anu) => {
 
 				img = await getBuffer(kuburan)
 
-				teks = `MARI KITA DOAKAN\nYANG TERBAIK UNTUK\n@${num.split('@')[0]}\nATAS KEPERGIANYA DARI\n*${mdata.subject}*`
+				teks = `MARI KITA DOAKAN\nSEMOGA DIA TENANG DI ALAM SANA BISMILLAH NASIKOTAK KALOK BALIK LAGI BAWA NASI KOTAK\n@${num.split('@')[0]}\nKALOK GX BAWA GW KICK DARI GC\n*${mdata.subject}*`
 
-				sendButImage(anu.jid, teks, `Yuki bot`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `AMIN`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
+				sendButImage(anu.jid, teks, `JMBT BOTZ`, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `NASI KOTAK MWEHEH`}, type: 1}], options = {contextInfo: {mentionedJid: [num, htod]}})
 
 			} else if (anu.action == 'promote') {
 
@@ -351,7 +351,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `「 PROMOTE - DETECTED 」\n\nNama : @${num.split("@")[0]}\nStatus : Member -> Admin\nGroup : ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SELAMAT KAK`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
+				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SELAMAT YA KONTOL`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
 
 			} else if (anu.action == 'demote') {
 
@@ -371,7 +371,7 @@ kurr.on('group-participants-update', async (anu) => {
 
 				teks = `「 DEMOTE - DETECTED 」\n\nNama : @${num.split("@")[0]}\nStatus : Admin -> Member\nGroup : ${mdata.subject}`
 
-				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `SABAR YA`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
+				sendButImage(anu.jid, teks, ``, img,but = [{buttonId: `Hello World!`, buttonText: {displayText: `MAKANYA BANG KALOK PUNYA BOKEP BAGI BAGI KONTOL`}, type: 1}], options = {contextInfo: {mentionedJid: [num]}})
 
 			}
 
